@@ -1,6 +1,12 @@
 # AI Onboarding Demo
 
+<p align="center">
+  <img src="src/assets/hero.png" alt="Hero" width="200" />
+</p>
+
 A standalone browser demo for testing an AI-assisted onboarding flow with OpenRouter.
+
+![Demo screenshot](image.png)
 
 ## Run it locally
 
