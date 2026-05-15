@@ -1,12 +1,11 @@
 # AI Onboarding Demo
 
-<p align="center">
-  <img src="src/assets/hero.png" alt="Hero" width="200" />
-</p>
-
 A standalone browser demo for testing an AI-assisted onboarding flow with OpenRouter.
 
+Use this to experiment with different models for the onboarding step — swap between OpenRouter models (or paste a custom model ID) to compare how each one structures a company profile, follows the prompt, and handles tool calls. To ground the model in real company data, the demo fetches page content through [Jina Reader](https://r.jina.ai/) (`https://r.jina.ai/<url>`), which returns clean, LLM-friendly markdown for any URL the model decides to browse.
+
 ![Demo screenshot](image.png)
+![Demo screenshot](image2.png)
 
 ## Run it locally
 
