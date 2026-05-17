@@ -1,0 +1,421 @@
+{
+  "data": {
+    "sidebarTree": [
+      {
+        "kind": "folder",
+        "label": "Public",
+        "path": "public",
+        "slug": "public",
+        "children": [
+          {
+            "kind": "file",
+            "label": "Favicon",
+            "path": "public/favicon.svg",
+            "slug": "public/favicon.svg",
+            "title": "Favicon",
+            "extension": "svg"
+          },
+          {
+            "kind": "file",
+            "label": "Icons",
+            "path": "public/icons.svg",
+            "slug": "public/icons.svg",
+            "title": "Icons",
+            "extension": "svg"
+          }
+        ]
+      },
+      {
+        "kind": "folder",
+        "label": "Src",
+        "path": "src",
+        "slug": "src",
+        "children": [
+          {
+            "kind": "folder",
+            "label": "Assets",
+            "path": "src/assets",
+            "slug": "assets",
+            "children": [
+              {
+                "kind": "file",
+                "label": "Hero",
+                "path": "src/assets/hero.png",
+                "slug": "src/assets/hero.png",
+                "title": "Hero",
+                "extension": "png"
+              },
+              {
+                "kind": "file",
+                "label": "React",
+                "path": "src/assets/react.svg",
+                "slug": "src/assets/react.svg",
+                "title": "React",
+                "extension": "svg"
+              },
+              {
+                "kind": "file",
+                "label": "Vite",
+                "path": "src/assets/vite.svg",
+                "slug": "src/assets/vite.svg",
+                "title": "Vite",
+                "extension": "svg"
+              }
+            ]
+          },
+          {
+            "kind": "folder",
+            "label": "Components",
+            "path": "src/components",
+            "slug": "components",
+            "children": [
+              {
+                "kind": "file",
+                "label": "LinkCard",
+                "path": "src/components/LinkCard.tsx",
+                "slug": "src/components/LinkCard.tsx",
+                "title": "LinkCard",
+                "extension": "tsx"
+              },
+              {
+                "kind": "file",
+                "label": "ToolCallToken",
+                "path": "src/components/ToolCallToken.tsx",
+                "slug": "src/components/ToolCallToken.tsx",
+                "title": "ToolCallToken",
+                "extension": "tsx"
+              }
+            ]
+          },
+          {
+            "kind": "folder",
+            "label": "Hooks",
+            "path": "src/hooks",
+            "slug": "hooks",
+            "children": [
+              {
+                "kind": "file",
+                "label": "UseChatPersistence",
+                "path": "src/hooks/useChatPersistence.ts",
+                "slug": "src/hooks/useChatPersistence.ts",
+                "title": "UseChatPersistence",
+                "extension": "ts"
+              }
+            ]
+          },
+          {
+            "kind": "folder",
+            "label": "Lib",
+            "path": "src/lib",
+            "slug": "lib",
+            "children": [
+              {
+                "kind": "file",
+                "label": "Utils",
+                "path": "src/lib/utils.ts",
+                "slug": "src/lib/utils.ts",
+                "title": "Utils",
+                "extension": "ts"
+              }
+            ]
+          },
+          {
+            "kind": "folder",
+            "label": "Types",
+            "path": "src/types",
+            "slug": "types",
+            "children": [
+              {
+                "kind": "file",
+                "label": "Index",
+                "path": "src/types/index.ts",
+                "slug": "src/types/index.ts",
+                "title": "Index",
+                "extension": "ts"
+              }
+            ]
+          },
+          {
+            "kind": "file",
+            "label": "App",
+            "path": "src/App.css",
+            "slug": "src/App.css",
+            "title": "App",
+            "extension": "css"
+          },
+          {
+            "kind": "file",
+            "label": "App",
+            "path": "src/App.tsx",
+            "slug": "src/App.tsx",
+            "title": "App",
+            "extension": "tsx"
+          },
+          {
+            "kind": "file",
+            "label": "Index",
+            "path": "src/index.css",
+            "slug": "src/index.css",
+            "title": "Index",
+            "extension": "css"
+          },
+          {
+            "kind": "file",
+            "label": "Main",
+            "path": "src/main.tsx",
+            "slug": "src/main.tsx",
+            "title": "Main",
+            "extension": "tsx"
+          }
+        ]
+      },
+      {
+        "kind": "doc",
+        "href": "/docs/readme",
+        "label": "README",
+        "path": "README.md",
+        "route": "readme",
+        "slug": "readme",
+        "title": "README",
+        "description": ""
+      },
+      {
+        "kind": "file",
+        "label": "Eslint.Config",
+        "path": "eslint.config.js",
+        "slug": "eslint.config.js",
+        "title": "Eslint.Config",
+        "extension": "js"
+      },
+      {
+        "kind": "file",
+        "label": "Image",
+        "path": "image.png",
+        "slug": "image.png",
+        "title": "Image",
+        "extension": "png"
+      },
+      {
+        "kind": "file",
+        "label": "Image2",
+        "path": "image2.png",
+        "slug": "image2.png",
+        "title": "Image2",
+        "extension": "png"
+      },
+      {
+        "kind": "file",
+        "label": "Index",
+        "path": "index.html",
+        "slug": "index.html",
+        "title": "Index",
+        "extension": "html"
+      },
+      {
+        "kind": "file",
+        "label": "Package",
+        "path": "package.json",
+        "slug": "package.json",
+        "title": "Package",
+        "extension": "json"
+      },
+      {
+        "kind": "file",
+        "label": "Package Lock",
+        "path": "package-lock.json",
+        "slug": "package-lock.json",
+        "title": "Package Lock",
+        "extension": "json"
+      },
+      {
+        "kind": "file",
+        "label": "Tailwind.Config",
+        "path": "tailwind.config.js",
+        "slug": "tailwind.config.js",
+        "title": "Tailwind.Config",
+        "extension": "js"
+      },
+      {
+        "kind": "file",
+        "label": "Tsconfig",
+        "path": "tsconfig.json",
+        "slug": "tsconfig.json",
+        "title": "Tsconfig",
+        "extension": "json"
+      },
+      {
+        "kind": "file",
+        "label": "Tsconfig.App",
+        "path": "tsconfig.app.json",
+        "slug": "tsconfig.app.json",
+        "title": "Tsconfig.App",
+        "extension": "json"
+      },
+      {
+        "kind": "file",
+        "label": "Tsconfig.Node",
+        "path": "tsconfig.node.json",
+        "slug": "tsconfig.node.json",
+        "title": "Tsconfig.Node",
+        "extension": "json"
+      },
+      {
+        "kind": "file",
+        "label": "Vite.Config",
+        "path": "vite.config.ts",
+        "slug": "vite.config.ts",
+        "title": "Vite.Config",
+        "extension": "ts"
+      }
+    ],
+    "workspaceSettings": {
+      "version": 1,
+      "workspace": {
+        "docsRootPath": "/Users/andrew/Library/Application Support/Snowflame Docs/vaults/github/AM1010101__ai-onboarding-demo",
+        "defaultLandingRoute": "/docs",
+        "pinReadmeFirst": true,
+        "ignoredDirectories": [
+          "node_modules",
+          ".git",
+          "dist",
+          "build",
+          ".next",
+          ".nuxt",
+          ".svelte-kit",
+          ".turbo",
+          ".cache",
+          "coverage",
+          "tmp",
+          "temp"
+        ],
+        "coreFileExtensions": [
+          ".md",
+          ".mdx",
+          ".txt",
+          ".csv",
+          ".db",
+          ".sqlite",
+          ".sqlite3",
+          ".drawio",
+          ".drawio.svg",
+          ".dio"
+        ],
+        "embeds": [
+          {
+            "id": "storybook",
+            "label": "Storybook",
+            "url": "http://127.0.0.1:6006"
+          }
+        ]
+      },
+      "editor": {
+        "autosaveDelayMs": 800,
+        "defaultMode": "visual",
+        "showFrontmatterByDefault": false
+      },
+      "localAi": {
+        "enabled": false,
+        "provider": "llama.cpp",
+        "origin": "",
+        "binaryPath": "",
+        "modelPath": "",
+        "modelUrl": "",
+        "defaultModelId": "",
+        "defaultModelKind": "curated",
+        "customModels": []
+      },
+      "agents": {
+        "defaultAgentId": "gemini",
+        "registry": [
+          {
+            "id": "gemini",
+            "name": "Gemini",
+            "command": "gemini",
+            "args": [
+              "--experimental-acp"
+            ],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          },
+          {
+            "id": "claude-code",
+            "name": "Claude Code",
+            "command": "claude-code-acp",
+            "args": [],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          },
+          {
+            "id": "codex",
+            "name": "Codex",
+            "command": "codex-acp",
+            "args": [],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          },
+          {
+            "id": "kiro",
+            "name": "Kiro",
+            "command": "kiro-cli",
+            "args": [
+              "acp"
+            ],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          },
+          {
+            "id": "opencode",
+            "name": "OpenCode",
+            "command": "opencode",
+            "args": [
+              "acp"
+            ],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          },
+          {
+            "id": "copilot",
+            "name": "GitHub Copilot",
+            "command": "copilot",
+            "args": [
+              "--acp",
+              "--stdio"
+            ],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          },
+          {
+            "id": "cursor",
+            "name": "Cursor",
+            "command": "agent",
+            "args": [
+              "acp"
+            ],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          },
+          {
+            "id": "pi",
+            "name": "Pi",
+            "command": "npx",
+            "args": [
+              "-y",
+              "pi-acp"
+            ],
+            "env": {},
+            "enabled": true,
+            "builtIn": true
+          }
+        ]
+      }
+    }
+  },
+  "isDirty": false
+}

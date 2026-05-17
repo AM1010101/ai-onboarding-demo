@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "workspace": {
+    "docsRootPath": "/Users/andrew/Library/Application Support/Snowflame Docs/vaults/github/AM1010101__ai-onboarding-demo",
+    "defaultLandingRoute": "/docs",
+    "pinReadmeFirst": true,
+    "ignoredDirectories": [
+      "node_modules",
+      ".git",
+      "dist",
+      "build",
+      ".next",
+      ".nuxt",
+      ".svelte-kit",
+      ".turbo",
+      ".cache",
+      "coverage",
+      "tmp",
+      "temp"
+    ],
+    "coreFileExtensions": [
+      ".md",
+      ".mdx",
+      ".txt",
+      ".csv",
+      ".db",
+      ".sqlite",
+      ".sqlite3",
+      ".drawio",
+      ".drawio.svg",
+      ".dio"
+    ],
+    "embeds": [
+      {
+        "id": "storybook",
+        "label": "Storybook",
+        "url": "http://127.0.0.1:6006"
+      }
+    ]
+  },
+  "editor": {
+    "autosaveDelayMs": 800,
+    "defaultMode": "visual",
+    "showFrontmatterByDefault": false
+  },
+  "localAi": {
+    "enabled": false,
+    "provider": "llama.cpp",
+    "origin": "",
+    "binaryPath": "",
+    "modelPath": "",
+    "modelUrl": "",
+    "defaultModelId": "",
+    "defaultModelKind": "curated",
+    "customModels": []
+  },
+  "agents": {
+    "defaultAgentId": "gemini",
+    "registry": [
+      {
+        "id": "gemini",
+        "name": "Gemini",
+        "command": "gemini",
+        "args": [
+          "--experimental-acp"
+        ],
+        "env": {},
+        "defaultEnabled": true,
+        "enabled": true,
+        "builtIn": true
+      },
+      {
+        "id": "claude-code",
+        "name": "Claude Code",
+        "command": "claude-code-acp",
+        "args": [],
+        "env": {},
+        "defaultEnabled": true,
+        "enabled": true,
+        "builtIn": true
+      },
+      {
+        "id": "codex",
+        "name": "Codex",
+        "command": "codex-acp",
+        "args": [],
+        "env": {},
+        "defaultEnabled": true,
+        "enabled": true,
+        "builtIn": true
+      },
+      {
+        "id": "kiro",
+        "name": "Kiro",
+        "command": "kiro-cli",
+        "args": [
+          "acp"
+        ],
+        "env": {},
+        "defaultEnabled": false,
+        "enabled": true,
+        "builtIn": true
+      },
+      {
+        "id": "opencode",
+        "name": "OpenCode",
+        "command": "opencode",
+        "args": [
+          "acp"
+        ],
+        "env": {},
+        "defaultEnabled": false,
+        "enabled": true,
+        "builtIn": true
+      },
+      {
+        "id": "copilot",
+        "name": "GitHub Copilot",
+        "command": "copilot",
+        "args": [
+          "--acp",
+          "--stdio"
+        ],
+        "env": {},
+        "defaultEnabled": false,
+        "enabled": true,
+        "builtIn": true
+      },
+      {
+        "id": "cursor",
+        "name": "Cursor",
+        "command": "agent",
+        "args": [
+          "acp"
+        ],
+        "env": {},
+        "defaultEnabled": false,
+        "enabled": true,
+        "builtIn": true
+      },
+      {
+        "id": "pi",
+        "name": "Pi",
+        "command": "npx",
+        "args": [
+          "-y",
+          "pi-acp"
+        ],
+        "env": {},
+        "defaultEnabled": false,
+        "enabled": true,
+        "builtIn": true
+      }
+    ]
+  }
+}
